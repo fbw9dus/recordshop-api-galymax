@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "users endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-users.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "records endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-records.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "orders endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-orders.js",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}

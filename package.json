@@ -1,0 +1,30 @@
+{
+  "name": "record-shop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "watch": "DEBUG=record-shop:* nodemon --inspect ./bin/www --ignore 'data/*'",
+    "seed": "node seed/seed_db.js",
+    "purge": "node seed/purge_db.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "faker": "^4.1.0",
+    "http-errors": "^1.7.3",
+    "lowdb": "^1.0.0",
+    "mongoose": "^5.7.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*",
+    "supertest": "^4.0.2"
+  }
+}
