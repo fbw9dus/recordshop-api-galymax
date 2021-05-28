@@ -1,0 +1,88 @@
+{
+  "tests": [
+    {
+      "name": "users endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-users.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "records endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-records.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "orders endpoints",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/endpoints-orders.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "validation",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/validation.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "validation middleware",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/validation-middleware.js",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "sanitization",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/sanitization.js",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "sub documents",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/sub-documents.js",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "relations",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/relations.js",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "field selection",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/field-selection.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "hashing",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/hashing.js",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "auth tokens",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/jwt.js",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "authentication",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/authentication.js",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
